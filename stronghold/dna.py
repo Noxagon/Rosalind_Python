@@ -1,5 +1,5 @@
 # text = input()
-file = open('Files/rosalind_dna.txt')
+file = open('files/rosalind_dna.txt')
 text = file.read()
 
 # main code starts here #
