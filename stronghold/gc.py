@@ -1,6 +1,7 @@
 file = open('files/rosalind_gc.txt')
 text = file.readlines()
 
+# main code starts here #
 id = {}
 lines = []
 name, max_name, line, dna = "", "", "", ""
@@ -26,6 +27,9 @@ for i in id:
 
 print(max_name)
 print(max_gc)
+# main code ends here #
+
+file.close()
 
 '''
 Alternative solution:
