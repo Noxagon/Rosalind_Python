@@ -1,3 +1,6 @@
+'''
+brain dead code, will tidy up in the future
+'''
 file = open('files/rosalind_cons.txt')
 
 collection = {}
